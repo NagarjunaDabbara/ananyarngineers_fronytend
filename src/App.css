@@ -1,0 +1,244 @@
+body {
+  margin: 0;
+  font-family: "Roboto Condensed", sans-serif;
+  background: #fff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-family: Dosis, sans-serif;
+}
+.team-info {
+  padding: 6em 0;
+}
+h3.title {
+  text-align: center;
+  color: #fff;
+  position: relative;
+  margin-bottom: 1em;
+  padding-bottom: 0.3em;
+  font-size: 50px;
+  font-weight: 900;
+  letter-spacing: 8px;
+}
+h3.title:before {
+  content: "";
+  width: 80px;
+  height: 5px;
+  background: #dfdcfb;
+  position: absolute;
+  bottom: 0;
+  left: 46%;
+  display: block;
+}
+.team-info {
+  background: rgba(0, 0, 0, 0.54);
+}
+.contact {
+  background: url(https://images.pexels.com/photos/3609139/pexels-photo-3609139.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260) no-repeat center 0 fixed;
+  background-size: cover;
+}
+.contact-form {
+  text-align: center;
+}
+::-webkit-input-placeholder {
+  color: #fff !important;
+}
+:-moz-placeholder {
+  color: #fff !important;
+}
+::-moz-placeholder {
+  color: #fff !important;
+}
+:-ms-input-placeholder {
+  color: #fff !important;
+}
+@media (max-width: 1366px) {
+  .team-info {
+      padding: 5em 0;
+  }
+}
+@media (max-width: 1280px) {
+  h3.title {
+      margin-bottom: 0.8em;
+  }
+}
+@media (max-width: 1080px) {
+  h3.title {
+      font-size: 3.6em;
+  }
+  .team-info {
+      padding: 4em 0;
+  }
+}
+@media (max-width: 991px) {
+  .team-info {
+      padding: 3.5em 0;
+  }
+  h3.title {
+      font-size: 3.3em;
+  }
+}
+@media (max-width: 640px) {
+  .team-info {
+      padding: 3em 0;
+  }
+  h3.title {
+      font-size: 3em;
+      margin-bottom: 0.6em;
+  }
+  h3.title:before {
+      width: 60px;
+      height: 3px;
+      left: 44%;
+  }
+}
+@media (max-width: 480px) {
+  .team-info {
+      padding: 2em 0;
+  }
+  h3.title {
+      font-size: 2.8em;
+      margin-bottom: 0.5em;
+  }
+  h3.title:before {
+      width: 45px;
+      left: 44%;
+  }
+}
+@media (max-width: 414px) {
+  h3.title {
+      font-size: 2.5em;
+  }
+}
+@media (max-width: 375px) {
+  h3.title {
+      font-size: 2.3em;
+  }
+  h3.title:before {
+      width: 40px;
+      left: 43%;
+  }
+  .team-info {
+      padding: 1.5em 0;
+  }
+}
+@media (max-width: 320px) {
+  h3.title {
+      margin-bottom: 0.3em;
+  }
+  .team-info {
+      padding: 1em 0;
+  }
+}
+
+
+form {
+  max-width: 960px;
+  margin: auto;
+}
+form input,
+textarea {
+  padding: 10px;
+  border: none;
+  background: 0 0;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+}
+input#firstname {
+  width: 100%;
+  max-width: 460px;
+  float: left;
+  margin-right: 20px;
+}
+input#surname {
+  width: 100%;
+  max-width: 460px;
+  float: left;
+  margin-left: 20px;
+}
+input#email {
+  width: 100%;
+  margin-top: 20px;
+}
+textarea#message {
+  width: 100%;
+  margin-top: 20px;
+}
+input#submit-btn {
+  margin-top: 20px;
+  width: 100px;
+  border: 2px solid #fff !important;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  transition: 0.25s ease-in-out 0s;
+}
+input#submit-btn:hover {
+  cursor: pointer;
+  background: #fff;
+  color: #000;
+  transform: scale(1.25);
+}
+::-webkit-input-placeholder {
+  color: #fff;
+  opacity: 1;
+}
+::-moz-placeholder {
+  color: #fff;
+  opacity: 1;
+}
+:-ms-input-placeholder {
+  color: #fff;
+  opacity: 1;
+}
+input:-moz-placeholder {
+  color: #fff;
+  opacity: 1;
+}
+@media screen and (max-width: 960px) {
+  form {
+      width: 90%;
+  }
+  input#firstname,
+  input#surname {
+      margin: 0 !important;
+      max-width: 100% !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* map */
+[id^="drop"] {
+  display: none;
+}
+.map-w3layouts iframe {
+  min-height: 25em;
+  border: none;
+  background: #e8eaec;
+  padding: 0.4em;
+  width: 100%;
+}
